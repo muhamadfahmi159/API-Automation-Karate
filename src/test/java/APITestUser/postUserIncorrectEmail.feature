@@ -3,7 +3,7 @@ Feature: Create User with Incorrect Email
   Background:
     Given url 'https://petstore.swagger.io/v2/user'
     * def username = 'username'
-    And print "===Post User==="
+    And print "====Post User Incorrect Email===="
 
   Scenario: Create a new user with incorrect email format
     Given path 'createWithList'
